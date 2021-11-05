@@ -2,7 +2,7 @@
 
 # This script is intended to be used on SX1302 CoreCell platform, it performs
 # the following actions:
-#       - export/unpexort GPIO7 used to reset the SX1302 chip
+#       - export/unpexort GPIO18 used to reset the SX1302 chip
 #
 # Usage examples:
 #       ./reset_lgw.sh stop
@@ -11,7 +11,7 @@
 # GPIO mapping has to be adapted with HW
 #
 
-SX1302_RESET_PIN=7
+SX1302_RESET_PIN=18
 
 WAIT_GPIO() {
     sleep 0.1
